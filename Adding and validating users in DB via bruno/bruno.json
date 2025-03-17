@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Adding and validating users in DB via bruno",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

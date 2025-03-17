@@ -2,9 +2,30 @@
   "name": "express-simple-starter",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "version": "1.0.0",
+  "description": "In this assignment, you are tasked with creating a login endpoint for a social media application that provides personalized content to its users. The endpoint will accept a user's credentials (either a username or email along with a password) and authenticate them by comparing the provided password against the securely stored hashed password.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikbhardwaj1111/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikbhardwaj1111/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-2/issues"
+  },
+  "homepage": "https://github.com/kartikbhardwaj1111/Adding-and-validating-users-in-DB-via-bruno---Practice-assignment-2#readme"
 }
